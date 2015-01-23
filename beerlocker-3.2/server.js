@@ -10,6 +10,9 @@ var authController = require('./controllers/auth');
 // Connect to the beerlocker MongoDB
 mongoose.connect('mongodb://localhost:27017/beerlocker');
 
+// Ausgabe - MNE
+console.log('MongoDB ist verbunden.');
+
 // Create our Express application
 var app = express();
 
